@@ -15,6 +15,7 @@ public class C02_forEachLoops {
         list1.add("ALI");
         list1.add("Veli");
         list1.add("Ayse");
+        list1.add("Kemal");
         list1.add("Fatma");
         list1.add("Omer");
 
