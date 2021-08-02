@@ -1,4 +1,4 @@
-package day29;
+package day29DateTime;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,7 +12,7 @@ public class halukHocaSorular03 {
     Scanner scan = new Scanner(System.in);
 
     System.out.println("Lütfen listeniz için sayı giriniz");
-    System.out.println("Ssayı girişini bitirmek için 'q' harfi giriniz");
+    System.out.println("Sayı girişini bitirmek için 'q' harfi giriniz");
     int toplam = 0;
     String islem = "";
 
