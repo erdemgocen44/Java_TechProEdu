@@ -5,7 +5,7 @@ public class C06_StringBuilder {
   public static void main(String[] args) {
     StringBuilder sb1 = new StringBuilder();
 
-    //StringBuilder e eleman ekleme
+    //StringBuilder e eleman ekleme append ile yapılır
 
     sb1.append("Merve");
     System.out.println("sb1 ilk hali : " + sb1);
@@ -17,6 +17,7 @@ public class C06_StringBuilder {
     System.out.println("sb1 kapasitesi : " + sb1.capacity());
     System.out.println("sb1 soon haliii : " + sb1.append(" bitsin artık"));
     System.out.println("sb1 son kapasitesi : " + sb1.capacity());
+
 
 
   }
