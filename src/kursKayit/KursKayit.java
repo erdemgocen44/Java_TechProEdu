@@ -8,7 +8,7 @@ public class KursKayit {
   Ogrenciler ogrenci;
   Kurslar kurs;
   LocalDate kayitZamani;
-  public static int kayitSayisi=0;
+  public static int kayitSayisi = 0;
 
   public KursKayit() {}
 
@@ -31,8 +31,10 @@ public class KursKayit {
       kurs.baslamaZamani.plusDays(kurs.KursSure)
     );
   }
- public void kayitSil(Ogrenciler ogr){
-   kayitSayisi--;
-   System.out.println(ogr.adi+" kaydı silinmiştir");
- };
+
+  public void kayitSil(Ogrenciler ogr) {
+    kayitSayisi--;
+
+    System.out.println(ogr.adi + " kaydı silinmiştir");
+  }
 }
