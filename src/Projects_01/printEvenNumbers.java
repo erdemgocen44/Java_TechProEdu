@@ -28,7 +28,8 @@ public class printEvenNumbers {
     /*
     Veri tipi int olan bir sayı verildiğinde
 
-    0 dan başlayarak verilen sayıya kadar olan tum cift sayıları print edin.
+    0 dan başlayarak verilen sayıya kadar olan 
+	tum cift sayıları print edin.
 
     Example 1:
     int input = 10;

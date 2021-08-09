@@ -28,7 +28,9 @@ public class perfectSquare {
      */
 
     /*
-    Pozitif bir int  num verildiğinde, return edildiği zaman num tamkare ise true veren değilse false veren bir foksiyon yazın.
+   	Pozitif bir int  num verildiğinde, 
+	return edildiği zaman num tamkare ise true veren 
+	değilse false veren bir foksiyon yazın.
 
          Not: sqrt gibi fonksiyonları  kullanmayın.
 
