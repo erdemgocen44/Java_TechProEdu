@@ -1,0 +1,19 @@
+1) Throws keywordu sadece declarationdır. dolayısıyla 
+asign edilen birşey yok. 
+Throws kullanılan metotta exception oluşursa
+CODE BLOCK olur.
+
+2) Exception arasında parent-child ilişkisi varsa 
+parent class exception throws dan sonra yazılmalı
+
+3) Throw u biz atarız, throws u çağırırız.
+
+4) Finally blogu try-catch bloku ile veya sadece try
+bloğu ile çalışır. 
+
+5) Finally blogu catch ile ongordugum bir sorun 
+oldugunda calistigi gibi ongoremedigim bir 
+exception olustugunda da calisir.
+
+6) Final cümlersi: Finally blogu try blogu içinde 
+her durumda mutlaka kesinlikle çalışırrrr.
