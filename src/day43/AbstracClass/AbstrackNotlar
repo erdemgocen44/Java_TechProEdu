@@ -1,0 +1,32 @@
+ABSTRACK Classes
+
+1) parent classdaki bodysiz methodlara abstrack method denir.
+Bazi child parent ilişkisindeki classlarda child class parent classın
+bazı methodlarını kullanmak zorunda ise o methodlar
+abstrack hale getirilir.
+
+2) ABSTRACK CLASSLARDA OBJE ASLA CREATE EDİLEMEZ...
+
+3) bir methodu abstrack yapmak için  -->>{body}
+silinir ve return type den once "abstrack" keyword kullanılır
+
+4) Abtract bir method ancak abstract bir classda create edilir
+concreate classda asla abstract method create edilemez
+
+5) abstrack bir classda hem abstrack hemde concreate method olabilir
+
+6) concreate class abstrack classa extend edildiğinde abstrack classdaki tüm 
+abstrack methodları implement (uyarlama) zo-run-da-dırrrrr!!!! 
+ama concreate methodları implement etmeyebilir.
+
+7) Bir abstrack class başka bir abstrack classa extend edildiğinde
+herhangi bir methodu override etmek zorunda değildir.Çünkü
+javaya göre abstrack child classının altında concreate child vardır
+
+8) Final private ve static methodlar abstrack olamazzzz!!!!
+
+9)abstrack classda variable olabilir ama bu variable 
+kesinlikle abstrack olamazzzzz!!!!
+
+10) 
+
