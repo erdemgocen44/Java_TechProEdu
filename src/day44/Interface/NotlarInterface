@@ -1,0 +1,19 @@
+INTERFACE........
+
+    *******INTERFACE ASLA BİR CLASS DEĞİLDİR*******
+
+1) Interface lerde concreate methot(yani body li)creat edilemez
+sadece abstract methodlar create edilir
+
+2) Java multiple inheritance desteklemez. Ancak interface 
+parentler multiple inheritanceyi destekler.
+
+3) Birden fazla parent classlarda aynı isimli methodlar 
+olması durumunda child class aynı isimli farklı bodyli 
+methodlar için seçim yapamaz.fakat Interfacelerde 
+methodların bodyleri olmadığından aynı isimli methodlar 
+birbiriyle tamamen aynı olduğu için seçim söz konusu 
+değildir. child class parent interfaceden aynı isimli 
+methodlardan birini override eder.
+
+4) 
