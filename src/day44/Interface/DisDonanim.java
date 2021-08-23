@@ -5,4 +5,7 @@ public interface DisDonanim {
     public void kapi() ;
     public void kaporta() ;
 
+    String RENK="metalik";
+    
+
 }

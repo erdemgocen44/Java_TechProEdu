@@ -16,4 +16,53 @@ birbiriyle tamamen aynı olduğu için seçim söz konusu
 değildir. child class parent interfaceden aynı isimli 
 methodlardan birini override eder.
 
-4) 
+4) Parent Interfacelerde aynı isimli fakat farklı 
+return typeli methodlar child classda CTE verir 
+yani kullanılabilir fakat  
+
+5) Interfacelerde tüm methodlar abstract olmak zorunda.
+abstract keywordu yazılmayabilir.
+
+ORNEGİN
+
+public abstract void koltuk();//abstract method "abstract "keywordu kullanılmış
+public void ayna() ;//abstract method "abstract "keywordu kullanılmamış
+
+6) Interfacelerdeki tum memberler public olduğu için AccesModifier'ı 
+yazılmasada public ile aynı özellikte çalışır.
+
+ÖRNEĞİN
+
+abstract void koltuk();
+public void ayna() ;
+
+public void ayna()<--> void ayna()aynı işlemi yapar
+
+Trick: Normal classdarda AccesModifier yazılmazsa  DEFAULT
+olur. Ancak Interfacelerde AccesModifier yazılmazsa 
+PUBLIC olur.
+
+7) Interfaceler kendi arasında parent-child ilişkisi kurabilir.
+Interfaceleri bir classa parent yapmak için Implement
+keywordu kullanılır.
+Classları bir classa parent yapmak için extend keywordu
+kullanılır
+
+class   -->>class : extends
+Interface-->>Interface : extends
+class-->>Interface : Implements
+Interface-->>class : O-LA-MAZZZ.. interfacein parenti class olamazzzç
+
+8) Interfacelerde variablelar mutlaka finaldir.final
+variablelar initialize edilmezse CTE verir.
+
+9) Interfacelerde variablelar mutlaka staticdir. dolayısıyla 
+obje create etmeden interface ismi ile call edilebilir.
+
+10) Interfacelerde tüm memberlar publictir. dolayısıyla
+tum Interface variablelar-->>public+static+final'dir.
+(Yazsa da yazmasa da)  
+
+
+
+

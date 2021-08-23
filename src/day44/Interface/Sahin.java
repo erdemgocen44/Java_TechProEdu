@@ -1,6 +1,17 @@
 package day44.Interface;
 
-public class Sahin extends Tofas implements IcDonanim, DisDonanim {
+public class Sahin extends Tofas implements IcDonanim ,Lastik{
+
+  @Override
+  public void ebat() {
+System.out.println("16 inc lastik ebatı vardır.");    
+  }
+
+  @Override
+  public void jant() {
+    System.out.println("Çelik jant kullanılmıştır");    
+    
+  }
 
   @Override
   public void ayna() {
