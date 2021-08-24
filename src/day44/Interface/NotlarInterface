@@ -63,6 +63,13 @@ obje create etmeden interface ismi ile call edilebilir.
 tum Interface variablelar-->>public+static+final'dir.
 (Yazsa da yazmasa da)  
 
-
+11) Interfacelerde istenirse abstract olmayan concreate 
+method create edilebilir. 
+a)AccesModifier den sonra "default" veya "static" keyword 
+kullanılmalıdır.(public default String sisLamp() {})
+b) Interfacelerde concreate method için kullanılan
+"default " keywordu kesinlikle aslaa AccesModifier türünü
+vermezzzzzz.
+c) Interfacelerde concreate method child class tarafından override 
 
 
