@@ -1,0 +1,15 @@
+ITERATOR VE LISTITERATOR arasındaki farklar
+
+1)Iterator sadece hasNext(), next()ve remove()
+methodlarını içerir. ListIterator ise hasNext(),next(),
+remove(),hasPrevious(),previous(),add(),set()
+methodlarını içerir.
+
+2) ListIterator sadece listler için kullanılırken 
+Iterator tüm collections(list,map,set vs.)elemanlarında
+kullanılır.
+
+3) Iterator sadece ileri gidiyor, ListIterator hem ileri 
+hemde geri çift yönlü gitmek için kullanılır.
+
+4)

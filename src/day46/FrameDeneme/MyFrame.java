@@ -1,4 +1,4 @@
-package day46;
+package day46.FrameDeneme;
 
 import java.awt.Color;
 
