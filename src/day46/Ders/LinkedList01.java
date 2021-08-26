@@ -59,7 +59,8 @@ public class LinkedList01 {
     ll1.removeAll(ll2);
     System.out.println(ll1); //[mehmet, samet, said, yağmur, merve, başarılı]
 
-    
-    System.out.println(ll1.get(3));
+    System.out.println(ll1.element());//mehmet-->>element methodu ilk elemanı verir
+
+    System.out.println(ll1.get(3)); //yağmur get(i)indexteki elamanı return eder
   }
 }
