@@ -1,4 +1,4 @@
-package Encapsulation;
+package Encapsulation.Ornek1;
 
 public class Ana {
 
