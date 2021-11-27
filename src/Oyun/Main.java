@@ -1,0 +1,11 @@
+package _JavaStudy._99_JavaProjects.Oyun;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Game game = new Game();
+        game.giris();
+
+    }
+}
